@@ -1,0 +1,19 @@
+{
+  "name": "devsolutions",
+  "version": "1.0.0",
+  "description": "Aplicação web de instruções para desenvolvimento de projetos ágeis SCRUM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cGuilhermec/devSolutions.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cGuilhermec/devSolutions/issues"
+  },
+  "homepage": "https://github.com/cGuilhermec/devSolutions#readme"
+}
