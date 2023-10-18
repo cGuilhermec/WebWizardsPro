@@ -1,8 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+    <!--Links importados-->
+
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -15,76 +20,56 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="../assets/css/style.css" />
+
+
+
     <title>Home</title>
 
+
   </head>
+
   <body>
+
     <!-- ======= Header ======= -->
     <header id="header" class="fixed-top">
       <div
         class="container-fluid d-flex justify-content-between align-items-center"
       >
         <h1 class="logo me-auto me-lg-0">
-          <a href="index.html">WebWizardsPro</a>
+          <a href="index.html"><img id="img-home" src="../images/logo-para-header.png" alt=""></a>
         </h1>
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
         <nav id="navbar" class="navbar order-last order-lg-0">
           <ul>
             <li><a class="active" href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
-            <li><a href="resume.html">Resume</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
             <li><a href="contact.html">Contact</a></li>
           </ul>
           <i class="bi bi-list mobile-nav-toggle"></i>
         </nav>
-        <!-- .navbar -->
-
-        <!-- <div class="header-social-links">
-            <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-            <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
-          </div> -->
       </div>
     </header>
+
+
 
     <!-- ======= Section ======= -->
     <section
       id="hero"
-      class="d-flex align-items-center hero"
+      class="d-flex justify-content-end hero"
     >
-      <div class="container d-flex flex-column align-items-center">
-        <h1>Aprenda Scrum</h1>
-        <h2>Aprenda sobre a metodologia Scrum e suas particuliaridades</h2>
-        <a href="About.html" class="btn-about">SAIBA MAIS</a>
+      <div id="btn-home " class="align-self-end ">
+          <a href="About.html" class="btn-about">SAIBA MAIS</a>
       </div>
     </section>
 
-    <!-- ======= Footer ======= -->
-    <footer id="footer">
-      <div class="container">
-        <div class="copyright">
-          &copy; Copyright <strong><span>WebWizardsPro</span></strong
-          >. All Rights Reserved
-        </div>
-        <div class="credits">
-          Designed by
-          <a href="https://github.com/cGuilhermec/DocumentacaoWebWizardPro"
-            >WebWizardsPro</a
-          >
-        </div>
-      </div>
-    </footer>
   </body>
+
   <style>
     #hero{ 
-      background-image: url('../images/capa02.avif');
+      background-image: url('../images/home.png');
       background-repeat: no-repeat; 
       background-size: cover;
     }
 </style>
+
 </html>

@@ -39,7 +39,7 @@ h6 {
 }
 
 #header {
-  background: #e9e8e6;
+  background: black;
   box-shadow: 0px 0px 25px 0 rgba(0, 0, 0, 0.08);
   z-index: 997;
   padding: 15px 0;
@@ -59,7 +59,7 @@ h6 {
 }
 
 #header .logo img {
-  max-height: 40px;
+  max-height: 50px;
 }
 
 @media (max-width: 992px) {
@@ -69,51 +69,14 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-# Preloader
---------------------------------------------------------------*/
-#preloader {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 9999;
-  overflow: hidden;
-  background: #fff;
-}
-
-#preloader:before {
-  content: "";
-  position: fixed;
-  top: calc(50% - 30px);
-  left: calc(50% - 30px);
-  border: 6px solid #34b7a7;
-  border-top-color: #dcf5f2;
-  border-radius: 50%;
-  width: 60px;
-  height: 60px;
-  animation: animate-preloader 1s linear infinite;
-}
-
-@keyframes animate-preloader {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-/*--------------------------------------------------------------
-# Header Social Links
---------------------------------------------------------------*/
+  # Header Social Links
+  --------------------------------------------------------------*/
 .header-social-links {
   padding-right: 15px;
 }
 
 .header-social-links a {
-  color: #6f6f6f;
+  color: #c361c9;
   padding-left: 6px;
   display: inline-block;
   line-height: 0px;
@@ -126,11 +89,20 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-  # Navigation Menu
-  --------------------------------------------------------------*/
+    # Navigation Menu
+    --------------------------------------------------------------*/
 /**
-  * Desktop Navigation 
-  */
+    * Desktop Navigation 
+    */
+
+#img-home {
+  margin-left: 60px;
+}
+
+#navbar {
+  margin-right: 120px;
+}
+
 .navbar {
   padding: 0;
 }
@@ -154,9 +126,9 @@ h6 {
   align-items: center;
   justify-content: space-between;
   font-family: "Raleway", sans-serif;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 600;
-  color: #888888;
+  color: white;
   white-space: nowrap;
   transition: 0.3s;
   position: relative;
@@ -176,7 +148,7 @@ h6 {
   height: 2px;
   bottom: -5px;
   left: 0;
-  background-color: #34b7a7;
+  background-color: #9814c9;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -193,7 +165,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover > a {
-  color: #222222;
+  color: white;
 }
 
 .navbar .dropdown ul {
@@ -263,8 +235,8 @@ h6 {
   }
 }
 /**
-* Mobile Navigation 
-*/
+  * Mobile Navigation 
+  */
 .mobile-nav-toggle {
   color: #222222;
   font-size: 28px;
@@ -375,40 +347,6 @@ h6 {
 /*--------------------------------------------------------------
 # Section-Title
 --------------------------------------------------------------*/
-section {
-  padding: 60px 0;
-}
-
-.section-bg {
-  background-color: #e7f8f6;
-}
-.section-title {
-  padding-bottom: 30px;
-}
-
-.section-title h1 {
-  font-size: 32px;
-  font-weight: bold;
-  text-transform: uppercase;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
-  position: relative;
-}
-
-.section-title h1::after {
-  content: "";
-  position: relative;
-  display: block;
-  width: 100px;
-  height: 3px;
-  background: #34b7a7;
-  bottom: 0;
-  left: calc(5% - 50px);
-}
-
-.section-title p {
-  margin-bottom: 0;
-}
 
 /*--------------------------------------------------------------
 # About
@@ -429,10 +367,10 @@ section {
   background: white;
 }
 
-#hero .container {
+/* #hero .container {
   padding-top: 70px;
   position: relative;
-}
+} */
 
 @media (max-width: 992px) {
   #hero .container {
@@ -462,15 +400,17 @@ section {
   letter-spacing: 1px;
   display: inline-block;
   padding: 12px 40px;
-  border-radius: 50px;
+  border-radius: 10px;
   transition: 0.5s;
   margin-top: 30px;
+  margin-right: 130px;
+  margin-bottom: 50%;
   color: #fff;
-  background: #269a8d;
+  background: #651448;
 }
 
 #hero .btn-about:hover {
-  background: #3dc8b7;
+  background: #561787;
 }
 
 @media (min-width: 1024px) {
