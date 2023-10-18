@@ -1,7 +1,11 @@
+/* FONTES DO PROJETO */
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+
 body {
-  font-family: "Open Sans", sans-serif;
-  color: #444444;
   height: 100vh;
+  background: linear-gradient(to right, #561787, #9468a9, #6e3bc7);
+  color: white;
 }
 a {
   color: #34b7a7;
@@ -15,9 +19,13 @@ a:hover {
 
 p {
   text-align: justify;
+  font-family: "Montserrat", sans-serif;
 }
 
-h1,
+h1 {
+  font-family: "Alfa Slab One", serif;
+}
+
 h2,
 h3,
 h4,
@@ -357,6 +365,14 @@ h6 {
   margin-top: 5vh;
 }
 
+.card {
+  box-shadow: 0px 0px 20px black;
+}
+
+#btns-about {
+  box-shadow: 0px 0px 5px #67626d;
+}
+
 /*--------------------------------------------------------------
     # Hero Section
     --------------------------------------------------------------*/
@@ -407,6 +423,7 @@ h6 {
   margin-bottom: 25%;
   color: #fff;
   background: #651448;
+  box-shadow: 0px 0px 20px #67626d;
 }
 
 #hero .btn-about:hover {
@@ -445,9 +462,9 @@ h6 {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #e9e8e6;
+  background: black;
   padding: 30px 0;
-  color: #222222;
+  color: white;
   font-size: 14px;
   text-align: center;
 }
@@ -458,7 +475,7 @@ h6 {
 }
 
 #footer .credits a {
-  color: #34b7a7;
+  color: #e23ca8;
 }
 
 /*--------------------------------------------------------------
