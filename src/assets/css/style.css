@@ -27,8 +27,8 @@ h1 {
 }
 
 #main {
-  margin-top: 10vh;
-  margin-bottom: 10vh;
+  margin-top: 20vh;
+  margin-bottom: 20vh;
 }
 
 @media (max-width: 992px) {
@@ -471,6 +471,9 @@ h5 {
   color: white;
   font-size: 14px;
   text-align: center;
+  bottom: 0;
+  width: 100%;
+  position: relative;
 }
 
 #footer .credits {
