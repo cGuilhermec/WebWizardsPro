@@ -8,6 +8,8 @@ body {
   color: white;
 }
 a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
   color: #34b7a7;
   text-decoration: none;
 }
@@ -30,6 +32,10 @@ p {
 
 h1 {
   font-family: "Alfa Slab One", serif;
+}
+
+h6 {
+  font-family: "Montserrat", sans-serif;
 }
 
 #main {
@@ -358,8 +364,15 @@ h1 {
 }
 
 /*--------------------------------------------------------------
-# Section-Title
+# Avaliacao
 --------------------------------------------------------------*/
+
+.Avaliacao {
+  width: 100%;
+  border-bottom: 1px solid white;
+  padding-bottom: 2%;
+  margin-bottom: 5%;
+}
 
 /*--------------------------------------------------------------
 # About
