@@ -2,6 +2,6 @@
 
 <div  align="center">
 
-# :open_file_folder: <a  href="https://github.com/cGuilhermec/DocumentacaoWebWizardPro">Repositório da documentação aqui!</a> :open_file_folder:
+# :open_file_folder: <a  href="https://github.com/cGuilhermec/DocumentacaoWebWizardPro">Repositório da documentação</a> :open_file_folder:
 
 </div>
