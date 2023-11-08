@@ -406,10 +406,10 @@ h5 {
   background: white;
 }
 
-/* #hero .container {
+#hero .container {
   padding-top: 70px;
   position: relative;
-} */
+}
 
 @media (max-width: 992px) {
   #hero .container {
