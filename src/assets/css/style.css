@@ -256,7 +256,7 @@ h6 {
 /**
   * Mobile Navigation 
   */
-.mobile-nav-toggle {
+/* .mobile-nav-toggle {
   color: #222222;
   font-size: 28px;
   cursor: pointer;
@@ -361,7 +361,7 @@ h6 {
 
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
-}
+} */
 
 /*--------------------------------------------------------------
 # Avaliacao
