@@ -7,6 +7,8 @@ const quizProva = document.querySelector(".quiz-Prova");
 const quizBox = document.querySelector(".quiz-box");
 const resultbox = document.querySelector(".result-box");
 const tentarNovamenteBtn = document.querySelector(".tenteNovamente-btn");
+const voltarHomeBtn = document.querySelector(".voltarParaHome-btn");
+const certificadoBtn = document.querySelector(".certificado-btn");
 
 //Ativar o card de informacoes da Prova
 //Ativar o blur da pagina
@@ -43,6 +45,16 @@ tentarNovamenteBtn.onclick = () => {
 
   mostrarQuestoes(contadorDeQuestoes);
   TotalDeQuestoes.textContent = `${contadorDeQuestoesFotter} of ${questoes.length} Questoes`;
+};
+
+voltarHomeBtn.onclick = () => {
+  quizProva.classList.remove("ativado");
+  nextBtn.classList.remove("ativado");
+  resultbox.classList.remove("ativado");
+
+  contadorDeQuestoes = 0;
+  contadorDeQuestoesFotter = 1;
+  pontuacaoDoUsuario = 0;
 };
 
 let contadorDeQuestoes = 0;
@@ -148,6 +160,10 @@ function mostrarResultBox() {
 
     if (valorInicialdoProgresso == valorFinalDoProgresso) {
       clearInterval(progresso);
+    }
+
+    if (valorFinalDoProgresso >= 60) {
+      certificadoBtn.classList.add("ativado");
     }
   }, speed);
 }
