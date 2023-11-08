@@ -2,6 +2,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 
+/*--------------------------------------------------------------
+  # Config Geral
+  --------------------------------------------------------------*/
+
 body {
   height: 100vh;
   background: linear-gradient(to right, #561787, #9468a9, #6e3bc7);
@@ -11,12 +15,12 @@ body {
 a {
   font-family: "Montserrat", sans-serif;
   font-weight: bolder;
-  color: #34b7a7;
+  color: grey;
   text-decoration: none;
 }
 
 a:hover {
-  color: #51cdbe;
+  color: grey;
   text-decoration: none;
 }
 
@@ -44,13 +48,49 @@ h6 {
   margin-bottom: 20vh;
 }
 
-@media (max-width: 992px) {
-  #main {
-    margin-top: 15vh;
-    margin-bottom: 15vh;
-  }
+/*--------------------------------------------------------------
+  # DarkMode Config Css
+  --------------------------------------------------------------*/
+
+.body-mode {
+  cursor: pointer;
+  /* transition: 0.2s; */
 }
 
+.body-mode.ativado {
+  background: black;
+  color: white;
+}
+
+.body-mode.ativado {
+  background: black;
+  color: white;
+}
+.body-mode.ativado .card-body {
+  background: black;
+  color: white;
+}
+
+.dropdown .dropdown-menu .dropdown-item {
+  background: white;
+  color: black;
+}
+
+.body-mode.ativado #header {
+  background-color: rgb(172, 172, 172);
+}
+.body-mode.ativado #header .navbar a,
+.navbar a:focus {
+  color: black;
+}
+
+/*--------------------------------------------------------------
+  # Acessibilidade Tamanho dos textos!
+  --------------------------------------------------------------*/
+.body-mode.active p {
+  font-size: 30px;
+  font-weight: 900;
+}
 /*--------------------------------------------------------------
   # Header
   --------------------------------------------------------------*/
@@ -89,32 +129,8 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-  # Header Social Links
-  --------------------------------------------------------------*/
-.header-social-links {
-  padding-right: 15px;
-}
-
-.header-social-links a {
-  color: #c361c9;
-  padding-left: 6px;
-  display: inline-block;
-  line-height: 0px;
-  transition: 0.3s;
-  font-size: 16px;
-}
-
-.header-social-links a:hover {
-  color: #34b7a7;
-}
-
-/*--------------------------------------------------------------
     # Navigation Menu
     --------------------------------------------------------------*/
-/**
-    * Desktop Navigation 
-    */
-
 #img-home {
   margin-left: 60px;
 }
@@ -254,210 +270,27 @@ h6 {
     left: -100%;
   }
 }
-/**
-  * Mobile Navigation 
-  */
-/* .mobile-nav-toggle {
-  color: #222222;
-  font-size: 28px;
-  cursor: pointer;
-  display: none;
-  line-height: 0;
-  transition: 0.5s;
-}
-
-.mobile-nav-toggle.bi-x {
-  color: #fff;
-}
-
-@media (max-width: 991px) {
-  .mobile-nav-toggle {
-    display: block;
-  }
-
-  .navbar ul {
-    display: none;
-  }
-}
-
-.navbar-mobile {
-  position: fixed;
-  overflow: hidden;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  background: rgba(9, 9, 9, 0.9);
-  transition: 0.3s;
-  z-index: 999;
-}
-
-.navbar-mobile .mobile-nav-toggle {
-  position: absolute;
-  top: 15px;
-  right: 15px;
-}
-
-.navbar-mobile ul {
-  display: block;
-  position: absolute;
-  top: 55px;
-  right: 15px;
-  bottom: 15px;
-  left: 15px;
-  padding: 10px 0;
-  border-radius: 10px;
-  background-color: #fff;
-  overflow-y: auto;
-  transition: 0.3s;
-}
-
-.navbar-mobile a,
-.navbar-mobile a:focus {
-  font-size: 15px;
-  padding-right: 15px;
-  color: #222222;
-}
-
-.navbar-mobile a:hover,
-.navbar-mobile .active,
-.navbar-mobile li:hover > a {
-  color: #34b7a7;
-}
-
-.navbar-mobile .getstarted,
-.navbar-mobile .getstarted:focus {
-  margin: 15px;
-}
-
-.navbar-mobile .dropdown ul {
-  position: static;
-  display: none;
-  margin: 10px 20px;
-  padding: 10px 0;
-  z-index: 99;
-  opacity: 1;
-  visibility: visible;
-  background: #fff;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
-}
-
-.navbar-mobile .dropdown ul li {
-  min-width: 200px;
-}
-
-.navbar-mobile .dropdown ul a {
-  padding: 10px 20px;
-}
-
-.navbar-mobile .dropdown ul a i {
-  font-size: 12px;
-}
-
-.navbar-mobile .dropdown ul a:hover,
-.navbar-mobile .dropdown ul .active:hover,
-.navbar-mobile .dropdown ul li:hover > a {
-  color: #34b7a7;
-}
-
-.navbar-mobile .dropdown > .dropdown-active {
-  display: block;
-} */
 
 /*--------------------------------------------------------------
-# Avaliacao
+# About
 --------------------------------------------------------------*/
-
-.Avaliacao {
-  width: 100%;
-  border-bottom: 1px solid white;
-  padding-bottom: 2%;
-  margin-bottom: 5%;
+#cards {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5vh;
 }
 
-/*--------------------------------------------------------------
-    # Hero Section
-    --------------------------------------------------------------*/
-
-#hero {
-  width: 100%;
-  height: 100%;
-  background: white;
+h5 {
+  font-size: 20px;
+  font-weight: bolder;
 }
 
-/* #hero .container {
-  padding-top: 70px;
-  position: relative;
-} */
-
-@media (max-width: 992px) {
-  #hero .container {
-    padding-top: 58px;
-  }
+.card {
+  box-shadow: 0px 0px 20px rgb(59, 59, 59);
 }
 
-#hero h1 {
-  margin: 0;
-  font-size: 48px;
-  font-weight: 700;
-  line-height: 56px;
-  color: black;
-}
-
-#hero h2 {
-  color: rgb(2, 2, 76);
-  margin: 10px 0 0 0;
-  font-size: 22px;
-}
-
-#hero .btn-about {
-  font-family: "Raleway", sans-serif;
-  text-transform: uppercase;
-  font-weight: 600;
-  font-size: 12px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 12px 40px;
-  border-radius: 10px;
-  transition: 0.5s;
-  margin-top: 30px;
-  margin-right: 110px;
-  margin-bottom: 25%;
-  color: #fff;
-  background: #651448;
-  box-shadow: 0px 0px 20px #67626d;
-}
-
-#hero .btn-about:hover {
-  background: #561787;
-}
-
-@media (min-width: 1024px) {
-  #hero {
-    background-attachment: fixed;
-  }
-}
-
-@media (max-width: 992px) {
-  #hero:before {
-    content: "";
-    background: rgba(255, 255, 255, 0.8);
-    position: absolute;
-    bottom: 0;
-    top: 0;
-    left: 0;
-    right: 0;
-  }
-
-  #hero h1 {
-    font-size: 28px;
-    line-height: 36px;
-  }
-
-  #hero h2 {
-    font-size: 18px;
-    line-height: 24px;
-  }
+#btns-about {
+  box-shadow: 0px 0px 5px #67626d;
 }
 
 /*--------------------------------------------------------------
@@ -484,5 +317,5 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-# Footer
---------------------------------------------------------------*/
+  # Footer
+  --------------------------------------------------------------*/
