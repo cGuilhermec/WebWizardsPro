@@ -21,13 +21,13 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="../assets/css/style.css" />
+    <link rel="stylesheet" href="../assets/css/pagSobre.css" />
 
     <title>About</title>
 
   </head>
 
-  <body>
+  <body class="body-mode" id="body-mode">
 
     <!-- ======= Header ======= -->
     <header id="header" class="fixed-top">
@@ -45,8 +45,45 @@
             <li><a href="./Inicio.html">Início</a></li>
             <li><a class="active" href="Sobre.html">Sobre</a></li>
             <li><a href="Contato.html">Contato</a></li>
+
+            <!--Botoes de DarkMode e LigthMode-->
+            <li><a>
+              <img src="../images/night.png" class="darkModeBtn" 
+              style="width: 30px; height: 30px;" 
+              alt="Botao de modo escuro e claro" >
+            </a></li>
+            <li><a>
+              <img src="../images/brightness-and-contrast.png" class="ligthModeBtn" 
+              style="width: 30px; height: 30px;" 
+              alt="Botao de modo claro" >
+            </a></li>
+
+
+            <!--Botao de acessibilidade-->
+            <div class="dropdown">
+
+              <button 
+              class="btn dropdown-toggle" 
+              type="button" 
+              data-bs-toggle="dropdown" 
+              aria-expanded="false" 
+              style="width: 45px; height: 40px;">
+
+                <img 
+                src="../images/acessibilidade.png" 
+                class="darkModeBtn" 
+                style="width: 30px; height: 30px;" 
+                alt="Botao de modo escuro" >
+                  
+              </button>
+
+              <ul class="dropdown-menu">
+                <li><a class="aumentar-btn dropdown-item">A+</a></li>
+                <li><a class="diminuir-btn dropdown-item">A-</a></li>
+              </ul>
+
+            </div>  
           </ul>
-          <i class="bi bi-list mobile-nav-toggle"></i>
         </nav>
       </div>
     </header>
@@ -90,6 +127,7 @@
             deleniti accusamus nulla. Ut illo alias provident ipsam.
           </p>
         </div>
+
         <div class="section-title">
           <h1 class="text-left my-lg-4">O que é Metodologia ágil?</h1>
           <p>
@@ -148,7 +186,7 @@
           <img
             src="../images/imagem-segundo-card.png"
             class="card-img-top"
-            alt="..."
+            alt="Card sobre Eventos Scrum"
           />
           <div class="card-body">
             <h5 class="card-title">Eventos Scrum</h5>
@@ -166,7 +204,7 @@
           <img
             src="../images/imagem-terceiro-card.png"
             class="card-img-top"
-            alt="..."
+            alt="imagem sobre Artefatos Scrum"
           />
           <div class="card-body">
             <h5 class="card-title">Artefatos Scrum</h5>
@@ -184,7 +222,7 @@
           <img
             src="../images/imagem-card-4.png"
             class="card-img-top"
-            alt="..."
+            alt="Imagem sobre Transparência do Artefato"
           />
           <div class="card-body">
             <h5 class="card-title">Transparência do Artefato</h5>
@@ -223,5 +261,5 @@
       height: 145.25px;
     }
   </style>
-  
+  <script src="../logic/darkmode.js"></script>
 </html>
