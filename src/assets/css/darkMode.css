@@ -1,0 +1,63 @@
+/*--------------------------------------------------------------
+  # DarkMode Config Css
+  --------------------------------------------------------------*/
+
+/* Tema Dark */
+
+input[type="checkbox"] {
+  display: none;
+}
+
+.bi {
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+.bi-sun {
+  display: block;
+}
+
+.bi-moon {
+  display: none;
+  transition: 0.8s;
+}
+
+.body-mode.ativado .bi-sun {
+  display: none;
+  transition: 0.8s;
+}
+.body-mode.ativado .bi-moon {
+  display: block;
+  transition: 0.8s;
+}
+
+.body-mode {
+  cursor: pointer;
+  background: linear-gradient(to right, #561787, #9468a9, #6e3bc7);
+  color: white;
+  transition: 0.8s;
+}
+
+.body-mode.ativado {
+  background: black;
+  color: white;
+}
+.body-mode.ativado .card-body {
+  background: black;
+  color: white;
+}
+
+.dropdown .dropdown-menu .dropdown-item {
+  background: white;
+  color: black;
+  transition: 0.8s;
+}
+
+.body-mode.ativado #header {
+  background-color: rgb(52, 52, 52);
+  transition: 0.8s;
+}
+.body-mode.ativado #header .navbar a,
+.navbar a:focus {
+  color: black
+  transition: 0.8s;
+}

@@ -1,0 +1,26 @@
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+#footer {
+  background: black;
+  padding: 30px 0;
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  position: relative;
+}
+
+#footer .credits {
+  padding-top: 5px;
+  font-size: 13px;
+}
+
+#footer .credits a {
+  color: #e23ca8;
+}
+
+/*--------------------------------------------------------------
+      # Footer
+      --------------------------------------------------------------*/

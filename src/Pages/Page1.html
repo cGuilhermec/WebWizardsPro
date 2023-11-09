@@ -22,7 +22,15 @@
       crossorigin="anonymous"
     ></script>
 
-    <link rel="stylesheet" href="../assets/css/pages.css" />
+    <!-- === Links de Stilos === -->
+    <link rel="stylesheet" href="../assets/css/acessibilidade.css" />
+    <link rel="stylesheet" href="../assets/css/darkMode.css" />
+    <link rel="stylesheet" href="../assets/css/footer.css" />
+    <link rel="stylesheet" href="../assets/css/header.css" />
+    <link rel="stylesheet" href="../assets/css/allStyle.css" />
+    <link rel="stylesheet" href="../assets/css/pagSobre.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    
 
     <title>O time scrum</title>
 
@@ -49,23 +57,20 @@
             <li><a href="Contato.html">Contato</a></li>
 
             <!--Botoes de DarkMode e LigthMode-->
-            <li><a>
-              <img src="../images/night.png" class="darkModeBtn" 
-              style="width: 30px; height: 30px;" 
-              alt="Botao de modo escuro e claro" >
-            </a></li>
-            <li><a>
-              <img src="../images/brightness-and-contrast.png" class="ligthModeBtn" 
-              style="width: 30px; height: 30px;" 
-              alt="Botao de modo claro" >
-            </a></li>
+            <li>
+              <input type="checkbox" name="change-theme" id="change-theme">
+              <label for="change-theme">
+                  <i class="darkModeBtn bi bi-sun"></i>
+                  <i class="bi bi-moon"></i>
+              </label>
+            </li>
 
 
             <!--Botao de acessibilidade-->
             <div class="dropdown">
 
               <button 
-              class="btn dropdown-toggle" 
+              class="btn dropdown-toggle mx-2" 
               type="button" 
               data-bs-toggle="dropdown" 
               aria-expanded="false" 
