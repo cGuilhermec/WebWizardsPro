@@ -23,36 +23,73 @@
       crossorigin="anonymous"
     ></script>
 
-    <link rel="stylesheet" href="../assets/css/style.css" />
+    <link rel="stylesheet" href="../assets/css/pages.css" />
 
     <title>Eventos Scrum</title>
 
   </head>
 
-  <body>
+  <body class="body-mode" id="body-mode">
 
-      <!-- ======= Header ======= -->
-      <header id="header" class="fixed-top">
-          <div
-            class="container-fluid d-flex justify-content-between align-items-center"
-          >
-            <h1 class="logo me-auto me-lg-0">
-              <a href="./Inicio.html"
-                ><img id="img-home" src="../images/logo-para-header.png" alt=""
-              /></a>
-            </h1>
-    
-            <nav id="navbar" class="navbar order-last order-lg-0">
-              <ul>
-                <li><a href="./Inicio.html">Início</a></li>
-                <li><a href="Sobre.html">Sobre</a></li>
-                <li><a class="active" href="#">Eventos Scrum</a></li>
-                <li><a href="Contato.html">Contato</a></li>
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top">
+      <div
+        class="container-fluid d-flex justify-content-between align-items-center"
+      >
+        <h1 class="logo me-auto me-lg-0">
+          <a href="./Inicio.html"
+            ><img id="img-home" src="../images/logo-para-header.png" alt=""
+          /></a>
+        </h1>
+
+        <nav id="navbar" class="navbar order-last order-lg-0">
+          <ul>
+            <li><a href="./Inicio.html">Início</a></li>
+            <li><a href="./Sobre.html">Sobre</a></li>
+            <li><a class="active" href="#">Eventos Scrum</a></li>
+            <li><a href="Contato.html">Contato</a></li>
+
+            <!--Botoes de DarkMode e LigthMode-->
+            <li><a>
+              <img src="../images/night.png" class="darkModeBtn" 
+              style="width: 30px; height: 30px;" 
+              alt="Botao de modo escuro e claro" >
+            </a></li>
+            <li><a>
+              <img src="../images/brightness-and-contrast.png" class="ligthModeBtn" 
+              style="width: 30px; height: 30px;" 
+              alt="Botao de modo claro" >
+            </a></li>
+
+
+            <!--Botao de acessibilidade-->
+            <div class="dropdown">
+
+              <button 
+              class="btn dropdown-toggle" 
+              type="button" 
+              data-bs-toggle="dropdown" 
+              aria-expanded="false" 
+              style="width: 45px; height: 40px;">
+
+                <img 
+                src="../images/acessibilidade.png" 
+                class="darkModeBtn" 
+                style="width: 30px; height: 30px;" 
+                alt="Botao de modo escuro" >
+                  
+              </button>
+
+              <ul class="dropdown-menu">
+                <li><a class="aumentar-btn dropdown-item">A+</a></li>
+                <li><a class="diminuir-btn dropdown-item">A-</a></li>
               </ul>
-              <i class="bi bi-list mobile-nav-toggle"></i>
-            </nav>
-          </div>
-        </header>
+
+            </div>  
+          </ul>
+        </nav>
+      </div>
+    </header>
 
       <!-- ======= Corpo do Site ======= -->
       <main id="main">
@@ -267,4 +304,7 @@
         </footer>
 
   </body>
+
+  <script src="../logic/darkmode.js"></script>
+
 </html>
