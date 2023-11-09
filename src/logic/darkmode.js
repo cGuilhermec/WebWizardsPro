@@ -1,12 +1,13 @@
 const bodyMode = document.querySelector(".body-mode");
 const darkModeBtn = document.querySelector(".darkModeBtn");
 const ligthModeBtn = document.querySelector(".ligthModeBtn");
+const biBtn = document.querySelector(".bi-moon");
 
 darkModeBtn.onclick = () => {
   bodyMode.classList.add("ativado");
 };
 
-ligthModeBtn.onclick = () => {
+biBtn.onclick = () => {
   bodyMode.classList.remove("ativado");
 };
 

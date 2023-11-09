@@ -1,4 +1,7 @@
-.acessibilidade {
-  width: 5px;
-  height: 5px;
+/*--------------------------------------------------------------
+  # Acessibilidade Tamanho dos textos!
+  --------------------------------------------------------------*/
+.body-mode.active p {
+  font-size: 30px;
+  font-weight: 900;
 }
