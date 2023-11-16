@@ -1,0 +1,108 @@
+body {
+  background: linear-gradient(128deg, #ac06f2 0%, #161ba0 111.86%);
+  width: 100vh;
+}
+
+/* @media (min-width: 480px) and (max-width: 767.98px) {
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+@media (min-width: 1200px) and (max-width: 3000px) {
+  
+} */
+
+h1 {
+  color: #6e21e0;
+  font-family: Montserrat;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+h2 {
+  color: #60b3ff;
+  font-family: Montserrat;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+h3 {
+  color: rgba(22, 27, 160, 0.41);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+p {
+  color: rgba(22, 27, 160, 0.41);
+  font-family: Montserrat;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+/* .inicio {
+        margin-top: -30px;
+      } */
+
+.certificado {
+  background: linear-gradient(161deg, #ddb4fb -73.01%, #fff 87.12%);
+  width: 80%;
+  height: 80%;
+  position: absolute;
+  left: 10%;
+  top: 10%;
+}
+
+.inicio {
+  margin-bottom: 40px;
+}
+
+.conteudo-certificado {
+  padding: 10%;
+}
+
+.certificado .conteudo-certificado img {
+  margin-top: -7%;
+}
+
+.input {
+  opacity: 1;
+  width: 250px;
+  position: absolute;
+  left: 10px;
+  top: 15px;
+}
+
+.input.ativado {
+  opacity: 0;
+}
+
+.nomeUsuario {
+  margin-top: 3%;
+}
+.linha {
+  margin-top: 13vh;
+  border-top: 2px solid black;
+}
+.linha .Assinatura {
+  font-family: Montserrat;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background: linear-gradient(180deg, #fa54ce 0%, #ac06f2 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
