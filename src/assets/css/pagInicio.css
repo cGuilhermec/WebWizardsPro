@@ -34,6 +34,7 @@ body {
   }
 
   .fixed-top img {
+    opacity: 0;
     margin-top: 20px;
     width: 200px;
     height: 50px;
@@ -79,6 +80,73 @@ body {
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
   body {
+    background-image: url("../../images/tablet.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .inicioBtn a {
+    font-family: "Raleway", sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 170px;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 40px;
+    border-radius: 10px;
+    transition: 0.5s;
+    margin-top: 220%;
+    margin-right: 110px;
+    margin-bottom: 25%;
+    color: #fff;
+    background: #651448;
+    box-shadow: 0px 0px 20px #67626d;
+    cursor: pointer;
+    position: relative;
+  }
+  .inicioBtn a:hover {
+    background: #561787;
+  }
+  img {
+    opacity: 0;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1499px) {
+  body {
+    background-image: url("../../images/home.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .inicioBtn a {
+    font-family: "Raleway", sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 170px;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 40px;
+    border-radius: 10px;
+    transition: 0.5s;
+    margin-top: 230%;
+    margin-right: 100px;
+    margin-bottom: 25%;
+    color: #fff;
+    background: #651448;
+    box-shadow: 0px 0px 20px #67626d;
+    cursor: pointer;
+    position: relative;
+  }
+  .inicioBtn a:hover {
+    background: #561787;
+  }
+}
+
+@media (min-width: 1500px) and (max-width: 1999px) {
+  body {
     background-image: url("../../images/home.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -108,8 +176,7 @@ body {
     background: #561787;
   }
 }
-
-@media (min-width: 1200px) and (max-width: 3000px) {
+@media (min-width: 2000px) and (max-width: 5000px) {
   body {
     background-image: url("../../images/home.png");
     background-repeat: no-repeat;
@@ -127,7 +194,7 @@ body {
     padding: 12px 40px;
     border-radius: 10px;
     transition: 0.5s;
-    margin-top: 300%;
+    margin-top: 270%;
     margin-right: 110px;
     margin-bottom: 25%;
     color: #fff;
