@@ -1,294 +1,247 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!--FAVICON-->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="icon" type="image/x-icon" href="../images/FAVECONicon.png" />
+  <!--FAVICON-->
 
-    <!--LINKS-->
+  <link rel="icon" type="image/x-icon" href="../images/FAVECONicon.png" />
 
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-      crossorigin="anonymous"
-    ></script>
+  <!--LINKS-->
 
-    <!-- === Links de Stilos === -->
-    <link rel="stylesheet" href="../assets/css/acessibilidade.css" />
-    <link rel="stylesheet" href="../assets/css/darkMode.css" />
-    <link rel="stylesheet" href="../assets/css/footer.css" />
-    <link rel="stylesheet" href="../assets/css/header.css" />
-    <link rel="stylesheet" href="../assets/css/allStyle.css" />
-    <link rel="stylesheet" href="../assets/css/pagSobre.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-    
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
 
-    <title>O time scrum</title>
+  <!-- === Links de Stilos === -->
+  <link rel="stylesheet" href="../assets/css/acessibilidade.css" />
+  <link rel="stylesheet" href="../assets/css/darkMode.css" />
+  <link rel="stylesheet" href="../assets/css/footer.css" />
+  <link rel="stylesheet" href="../assets/css/header.css" />
+  <link rel="stylesheet" href="../assets/css/allStyle.css" />
+  <link rel="stylesheet" href="../assets/css/pagSobre.css" />
+  <link rel="stylesheet" href="../assets/css/pag01.css" />
+  <link rel="stylesheet" href="../assets/css/botoesVoltar&Avaliacao.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="../assets/css/pag01.css">
 
-  </head>
+  <title>O time scrum</title>
 
-  <body class="body-mode" id="body-mode">
+</head>
 
-    <!-- ======= Header ======= -->
-    <header id="header" class="fixed-top">
-      <div
-        class="container-fluid d-flex justify-content-between align-items-center"
-      >
-        <h1 class="logo me-auto me-lg-0">
-          <a href="../../Inicio.html"
-            ><img id="img-home" src="../images/logo-para-header.png" alt=""
-          /></a>
-        </h1>
+<body class="body-mode" id="body-mode">
 
-        <nav id="navbar" class="navbar order-last order-lg-0">
-          <ul>
-            <li><a href="../../Inicio.html">Início</a></li>
-            <li><a href="./Sobre.html">Sobre</a></li>
-            <li><a class="active" href="#">O time Scrum</a></li>
-            <li><a href="Contato.html">Contato</a></li>
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container-fluid d-flex justify-content-between align-items-center">
+      <h1 class="logo me-auto me-lg-0">
+        <a href="../../index.html"><img id="img-home" src="../images/logo-para-header.png" alt="" /></a>
+      </h1>
 
-            <!--Botoes de DarkMode e LigthMode-->
-            <li>
-              <input type="checkbox" name="change-theme" id="change-theme">
-              <label for="change-theme">
-                  <i class="darkModeBtn bi bi-sun"></i>
-                  <i class="bi bi-moon"></i>
-              </label>
-            </li>
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a href="../../index.html" alt="encaminha ao inicio do site">Início</a></li>
+          <li><a href="./Sobre.html" alt="encaminha a pagina de introdução ao scrum">Sobre</a></li>
+          <li><a class="active" href="#">O time Scrum</a></li>
+          <li><a href="Contato.html" alt="botão que encaminha a pagina da equipe do site">Contato</a></li>
+
+          <!--Botoes de DarkMode e LigthMode-->
+          <li>
+            <input type="checkbox" name="change-theme" id="change-theme" >
+            <label for="change-theme">
+              <i class="darkModeBtn bi bi-sun"></i>
+              <i class="bi bi-moon"></i>
+            </label>
+          </li>
 
 
-            <!--Botao de acessibilidade-->
-            <div class="dropdown">
+          <!--Botao de acessibilidade-->
+          <div class="dropdown">
 
-              <button 
-              class="btn dropdown-toggle mx-2" 
-              type="button" 
-              data-bs-toggle="dropdown" 
-              aria-expanded="false" 
+            <button class="btn dropdown-toggle mx-2" type="button" data-bs-toggle="dropdown" aria-expanded="false"
               style="width: 45px; height: 40px;">
 
-                <img 
-                src="../images/acessibilidade.png" 
-                class="darkModeBtn" 
-                style="width: 30px; height: 30px;" 
-                alt="Botao de modo escuro" >
-                  
-              </button>
+              <img src="../images/acessibilidade.png" class="darkModeBtn" style="width: 30px; height: 30px;"
+                alt="Botao de modo escuro">
 
-              <ul class="dropdown-menu">
-                <li><a class="aumentar-btn dropdown-item">A+</a></li>
-                <li><a class="diminuir-btn dropdown-item">A-</a></li>
-              </ul>
+            </button>
 
-            </div>  
-          </ul>
-        </nav>
-      </div>
-    </header>
+            <ul class="dropdown-menu">
+              <li><a class="aumentar-btn dropdown-item">A+</a></li>
+              <li><a class="diminuir-btn dropdown-item">A-</a></li>
+            </ul>
 
-    <!-- ======= Corpo do Site ======= -->
-    <main id="main">
-
-      <div id="Page01" class="container">
-        <div>
-          <h1 class="my-lg-4">O Product Owner</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro dolores
-            laudantium praesentium, dolore accusamus expedita possimus? Eius
-            quaerat modi similique dolore officiis, recusandae libero obcaecati
-            aspernatur natus cum provident corrupti Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Porro dolores laudantium praesentium,
-            dolore accusamus expedita possimus? Eius quaerat modi similique dolore
-            officiis, recusandae libero obcaecati aspernatur natus cum provident
-            corruptiLorem ipsum dolor sit amet consectetur adipisicing elit. Porro
-            dolores laudantium praesentium, dolore accusamus expedita possimus?
-            Eius quaerat modi similique dolore officiis, recusandae libero
-            obcaecati aspernatur natus cum provident corruptiLorem ipsum dolor sit
-            amet consectetur adipisicing elit. Porro dolores laudantium
-            praesentium, dolore accusamus expedita possimus? Eius quaerat modi
-            similique dolore officiis, recusandae libero obcaecati aspernatur
-            natus cum provident corruptiLorem ipsum dolor sit amet consectetur
-            adipisicing elit. Porro dolores laudantium praesentium, dolore
-            accusamus expedita possimus? Eius quaerat modi similique dolore
-            officiis, recusandae libero obcaecati aspernatur natus cum provident
-            corruptiLorem ipsum dolor sit amet consectetur adipisicing elit. Porro
-            dolores laudantium praesentium, dolore accusamus expedita possimus?
-            Eius quaerat modi similique dolore officiis, recusandae libero
-            obcaecati aspernatur natus cum provident corruptiLorem ipsum dolor sit
-            amet consectetur adipisicing elit. Porro dolores laudantium
-            praesentium, dolore accusamus expedita possimus? Eius quaerat modi
-            similique dolore officiis, recusandae libero obcaecati aspernatur
-            natus cum provident corruptiLorem ipsum dolor sit amet consectetur
-            adipisicing elit. Porro dolores laudantium praesentium, dolore
-            accusamus expedita possimus? Eius quaerat modi similique dolore
-            officiis, recusandae libero obcaecati aspernatur natus cum provident
-            corrupti
-          </p>
-  
-          <div class="my-md-5">
-            <div class="col-md-12 text-center">
-              <img src="../images/PO_PG01.png" height="400" width="800" />
-            </div>
           </div>
-          
-          <p class="my-lg-4">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro dolores
-            laudantium praesentium, dolore accusamus expedita possimus? Eius
-            quaerat modi similique dolore officiis, recusandae libero obcaecati
-            aspernatur natus cum provident corruptiLorem ipsum dolor sit amet
-            consectetur adipisicing elit. Porro dolores laudantium praesentium,
-            dolore accusamus expedita possimus? Eius quaerat modi similique dolore
-            officiis, recusandae libero obcaecati aspernatur natus cum provident
-            corruptiLorem ipsum dolor sit amet consectetur adipisicing elit. Porro
-            dolores laudantium praesentium, dolore accusamus expedita possimus?
-            Eius quaerat modi similique dolore officiis, recusandae libero
-            obcaecati aspernatur natus cum provident corruptiLorem ipsum dolor sit
-            amet consectetur adipisicing elit. Porro dolores laudantium
-            praesentium, dolore accusamus expedita possimus? Eius quaerat modi
-            similique dolore officiis, recusandae libero obcaecati aspernatur
-            natus cum provident corruptiLorem ipsum dolor sit amet consectetur
-            adipisicing elit. Porro dolores laudantium praesentium, dolore
-            accusamus expedita possimus? Eius quaerat modi similique dolore
-            officiis, recusandae libero obcaecati aspernatur natus cum provident
-            corruptiLorem ipsum dolor sit amet consectetur adipisicing elit. Porro
-            dolores laudantium praesentium, dolore accusamus expedita possimus?
-            Eius quaerat modi similique dolore officiis, recusandae libero
-            obcaecati aspernatur natus cum provident corruptiLorem ipsum dolor sit
-            amet consectetur adipisicing elit. Porro dolores laudantium
-            praesentium, dolore accusamus expedita possimus? Eius quaerat modi
-            similique dolore officiis, recusandae libero obcaecati aspernatur
-            natus cum provident corruptiLorem ipsum dolor sit amet consectetur
-            adipisicing elit. Porro dolores laudantium praesentium, dolore
-            accusamus expedita possimus? Eius quaerat modi similique dolore
-            officiis, recusandae libero obcaecati aspernatur natus cum provident
-            corruptiLorem ipsum dolor sit amet consectetur adipisicing elit. Porro
-            dolores laudantium praesentium, dolore accusamus expedita possimus?
-            Eius quaerat modi similique dolore officiis, recusandae libero
-            obcaecati aspernatur natus cum provident corruptiLorem ipsum dolor sit
-            amet consectetur adipisicing elit. Porro dolores laudantium
-            praesentium, dolore accusamus expedita possimus? Eius quaerat modi
-            similique dolore officiis, recusandae libero obcaecati aspernatur
-            natus cum provident corruptiLorem ipsum dolor sit amet consectetur
-            adipisicing elit. Porro dolores laudantium praesentium, dolore
-            accusamus expedita possimus? Eius quaerat modi similique dolore
-            officiis, recusandae libero obcaecati aspernatur natus cum provident
-            corruptiLorem ipsum dolor sit amet consectetur adipisicing elit. Porro
-            dolores laudantium praesentium, dolore accusamus expedita possimus?
-            Eius quaerat modi similique dolore officiis, recusandae libero
-            obcaecati aspernatur natus cum provident corruptiLorem ipsum dolor sit
-            amet consectetur adipisicing elit. Porro dolores laudantium
-            praesentium, dolore accusamus expedita possimus? Eius quaerat modi
-            similique dolore officiis, recusandae libero obcaecati aspernatur
-            natus cum provident corrupti
-          </p>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ======= Corpo do Site ======= -->
+  <main id="main">
+
+    <div id="Page01" class="container">
+      <div>
+        <h1 class="my-lg-4">Entendendo o Papel do Product Owner</h1>
+        <h2>Introdução:</h2>
+        <p>
+          Bem-vindo ao nosso módulo sobre o papel crucial do Product Owner! Neste curso, vamos explorar quem é o PO, o que eles fazem e por que são tão importantes no desenvolvimento de produtos. Vamos aprender de forma
+          simples e prática!
+        </p>
+        <h2> Modulo 1: O que é um Product Owner? </h2>
+        <p>
+          O Product Owner (PO) é como o "dono" do produto em um projeto de desenvolvimento. É responsável por
+          representar os interesses dos clientes e usuários finais, garantindo que o produto atenda às suas
+          necessidades.
+        </p>
+        <h2> As habilidades de um bom Product Owner </h2>
+        <p>
+          Um bom Product Owner deve ser um comunicador excelente, ter visão de negócios e compreender profundamente o
+          mercado e os usuários. Eles precisam equilibrar diferentes demandas e tomar decisões que maximizem o valor do
+          produto.
+        </p>
+        <h2> O que o Product Owner faz ? </h2>
+        <p>
+          PO trabalha com a equipe para criar uma lista de tarefas chamada "Backlog do Produto". Eles priorizam essas
+          tarefas com base no valor que trarão ao produto e aos usuários.
+        </p>
+        <h2> Colaborando com a Equipe de Desenvolvimento </h2>
+        <p>
+          O Product Owner trabalha em estreita colaboração com a equipe de desenvolvimento, esclarecendo requisitos,
+          respondendo a perguntas e tomando decisões para garantir que o produto seja construído da maneira certa.
+        </p>
+
+        <div class="containerpg02">
+          <div class="col-md-12 text-center">
+            <img src="../images/gif-PO-pg01.gif" alt="Gif explicativo sobre o product owner" height="350" width="750" />
+          </div>
         </div>
 
-        <div class="my-md-5">
-          <h1 class="my-md-4">O Time de Desenvolvimento</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit itaque
-            nobis ab dolorem quaerat consectetur, quis molestiae pariatur, debitis
-            tempore excepturi dignissimos! Dicta alias laborum, animi assumenda
-            cumque veritatis officiaLorem ipsum dolor sit amet consectetur
-            adipisicing elit. Porro dolores laudantium praesentium, dolore
-            accusamus expedita possimus? Eius quaerat modi similique dolore
-            officiis, recusandae libero obcaecati aspernatur natus cum provident
-            corruptiLorem ipsum dolor sit amet consectetur adipisicing elit. Porro
-            dolores laudantium praesentium, dolore accusamus expedita possimus?
-            Eius quaerat modi similique dolore officiis, recusandae libero
-            obcaecati aspernatur natus cum provident corruptiLorem ipsum dolor sit
-            amet consectetur adipisicing elit. Porro dolores laudantium
-            praesentium, dolore accusamus expedita possimus? Eius quaerat modi
-            similique dolore officiis, recusandae libero obcaecati aspernatur
-            natus cum provident corruptiLorem ipsum dolor sit amet consectetur
-            adipisicing elit. Porro dolores laudantium praesentium, dolore
-            accusamus expedita possimus? Eius quaerat modi similique dolore
-            officiis, recusandae libero obcaecati aspernatur natus cum provident
-            corruptiLorem ipsum dolor sit amet consectetur adipisicing elit. Porro
-            dolores laudantium praesentium, dolore accusamus expedita possimus?
-            Eius quaerat modi similique dolore officiis, recusandae libero
-            obcaecati aspernatur natus cum provident corruptiLorem ipsum dolor sit
-            amet consectetur adipisicing elit. Porro dolores laudantium
-            praesentium, dolore accusamus expedita possimus? Eius quaerat modi
-            similique dolore officiis, recusandae libero obcaecati aspernatur
-            natus cum provident corruptiLorem ipsum dolor sit amet consectetur
-            adipisicing elit. Porro dolores laudantium praesentium, dolore
-            accusamus expedita possimus? Eius quaerat modi similique dolore
-            officiis, recusandae libero obcaecati aspernatur natus cum provident
-            corruptiLorem ipsum dolor sit amet consectetur adipisicing elit. Porro
-            dolores laudantium praesentium, dolore accusamus expedita possimus?
-            Eius quaerat modi similique dolore officiis, recusandae libero
-            obcaecati aspernatur natus cum provident corrupti
-          </p>
-        </div>
-
-        <div class="my-md-5">
-          <h1 class="my-md-4">O Scrum Master</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit itaque
-            nobis ab dolorem quaerat consectetur, quis molestiae pariatur, debitis
-            tempore excepturi dignissimos! Dicta alias laborum, animi assumenda
-            cumque veritatis officiaLorem ipsum dolor sit amet consectetur
-            adipisicing elit. Porro dolores laudantium praesentium, dolore
-            accusamus expedita possimus? Eius quaerat modi similique dolore
-            officiis, recusandae libero obcaecati aspernatur natus cum provident
-            corruptiLorem ipsum dolor sit amet consectetur adipisicing elit. Porro
-            dolores laudantium praesentium, dolore accusamus expedita possimus?
-            Eius quaerat modi similique dolore officiis, recusandae libero
-            obcaecati aspernatur natus cum provident corruptiLorem ipsum dolor sit
-            amet consectetur adipisicing elit. Porro dolores laudantium
-            praesentium, dolore accusamus expedita possimus? Eius quaerat modi
-            similique dolore officiis, recusandae libero obcaecati aspernatur
-            natus cum provident corruptiLorem ipsum dolor sit amet consectetur
-            adipisicing elit. Porro dolores laudantium praesentium, dolore
-            accusamus expedita possimus? Eius quaerat modi similique dolore
-            officiis, recusandae libero obcaecati aspernatur natus cum provident
-            corruptiLorem ipsum dolor sit amet consectetur adipisicing elit. Porro
-            dolores laudantium praesentium, dolore accusamus expedita possimus?
-            Eius quaerat modi similique dolore officiis, recusandae libero
-            obcaecati aspernatur natus cum provident corruptiLorem ipsum dolor sit
-            amet consectetur adipisicing elit. Porro dolores laudantium
-            praesentium, dolore accusamus expedita possimus? Eius quaerat modi
-            similique dolore officiis, recusandae libero obcaecati aspernatur
-            natus cum provident corruptiLorem ipsum dolor sit amet consectetur
-            adipisicing elit. Porro dolores laudantium praesentium, dolore
-            accusamus expedita possimus? Eius quaerat modi similique dolore
-            officiis, recusandae libero obcaecati aspernatur natus cum provident
-            corruptiLorem ipsum dolor sit amet consectetur adipisicing elit. Porro
-            dolores laudantium praesentium, dolore accusamus expedita possimus?
-            Eius quaerat modi similique dolore officiis, recusandae libero
-            obcaecati aspernatur natus cum provident corrupti
-          </p>
-        </div>
-
+        <h2> A Importância do Product Owner e sua responsabilidade pelo Sucesso do Produto </h2>
+        <p class="my-lg-4">
+          O Product Owner desempenha um papel fundamental na entrega de valor aos clientes. Eles garantem que o produto
+          seja relevante, funcional e atenda às expectativas. Eles medem o progresso, ajustam o plano conforme
+          necessário e tomam decisões que afetam diretamente a satisfação do cliente.
+        </p>
+        <h2> Conclusão </h2>
+        <p>
+          Neste modulo, você aprendeu que o Product Owner desempenha um papel crucial na criação de produtos de sucesso.
+          Eles representam os interesses dos clientes, definem as prioridades e trabalham de perto com a equipe de
+          desenvolvimento. Agora, você tem uma compreensão clara de como o Product Owner é vital no mundo do
+          desenvolvimento de produtos.
+          Espero que tenha achado este curso útil e que esteja pronto para aplicar esse conhecimento no mundo real.
+        </p>
       </div>
-      
-    </main>
-
-    <!-- ======= Footer ======= -->
-    <footer id="footer">
-      <div class="container">
-        <div class="copyright">
-          &copy; Copyright <strong><span>WebWizardsPro</span></strong
-          >. All Rights Reserved
+      <h1 class="my-md-4">O Time de Desenvolvimento</h1>
+      <p>
+        Nesse modulo iremos nos aprofundar sobre o Time de Desenvolvimento! Aqui, vamos desvendar o que é esse time,
+        quais são suas responsabilidades e por que eles são fundamentais no desenvolvimento de projetos. Vamos aprender
+        de maneira simples e prática!
+      </p>
+      <h2> Módulo 2: Quem é o Time de Desenvolvimento? </h2>
+      <p>
+        O Time de Desenvolvimento é o grupo de pessoas que transforma as ideias e requisitos em software funcional. Eles
+        são os "mágicos" por trás da criação de aplicativos, sites e sistemas, tornando as coisas reais.
+      </p>
+      <h2> As habilidades do Time de Desenvolvimento </h2>
+      <p>
+        Um bom Time de Desenvolvimento precisa ter conhecimentos técnicos, colaboração eficaz e habilidades de solução
+        de problemas. Eles trabalham juntos para construir o produto de acordo com as especificações.
+      </p>
+      <section class="main">
+        <div class="wraper">
+          <div class="descrição-topo">
+            <h2> O que o Time de Desenvolvimento faz? </h2>
+            <br />
+            <p>
+              O Time de Desenvolvimento é essencial para a entrega de um produto de qualidade. Eles trabalham para
+              atender às necessidades dos usuários e dos clientes
+            </p>
+            <h2> Colaboração e Comunicação </h2>
+            <p>
+              Eles colaboram com o Product Owner e outros membros da equipe, comunicando desafios, progresso e ajustes
+              necessários.
+            </p>
+          </div>
+          <div class="video">
+            <iframe src="https://www.youtube.com/embed/I42pfkk2I60" alt="Video complementar do tema abordado"></iframe>
+          </div>
         </div>
-        <div class="credits">
-          Designed by
-          <a href="https://github.com/cGuilhermec/DocumentacaoWebWizardPro"
-            >WebWizardsPro</a
-          >
+      </section>
+      <h2> Conclusão: </h2>
+      <p>
+        Neste modulo, você aprendeu que o Time de Desenvolvimento desempenha um papel central na construção de
+        produtos de software. Eles são os construtores, testadores e solucionadores de problemas que tornam as
+        ideias em realidade. Agora, você compreende a importância desse time no mundo do desenvolvimento de projetos.
+        Espero que tenha achado este curso útil e que esteja pronto para aplicar esse conhecimento no seu trabalho!
+      </p>
+      <div class="container containerpg01">
+        <h1 class="my-md-4">Modulo 3 Desvendando o Papel do Scrum Master </h1>
+
+        <div>
+          <img src="../images/img-scrum-master-pag01.jpg" alt="imagem ilustrativa do scrum master" />
+          <div>
+            <p> Nesse módulo iremos nos aprofundar sobre o papel do Scrum Master! Aqui, vamos explorar quem é o Scrum
+              Master, o que eles fazem e por que são tão importantes no framework Scrum. Vamos aprender de maneira simples
+              e prática!
+            </p>
+            <h2> O que é um Scrum Master? </h2>
+            <p>
+              O Scrum Master é como o "mestre" que ajuda a equipe a seguir o framework Scrum. Eles são líderes de equipe e
+              facilitadores, não chefes. Seu principal objetivo é garantir que a equipe possa trabalhar de forma eficaz e
+              alcançar seus objetivos.
+            </p>
+          </div>
+          <h2> O que o Scrum Master faz? </h2>
+          <p>
+            O Scrum Master lidera as reuniões do Scrum, como a Sprint Planning, Daily Scrum, Sprint Review e Sprint
+            Retrospective. Eles garantem que essas reuniões sejam produtivas e que a equipe as compreenda.
+          </p>
+          <h2> Remoção de Obstáculos </h2>
+          <p>
+            Os Scrum Masters trabalham para eliminar impedimentos que possam atrapalhar a equipe, como problemas técnicos,
+            burocracia ou conflitos. Eles ajudam a equipe a se concentrar no desenvolvimento do produto.
+          </p>
+          <h2> A Importância do Scrum Master </h2>
+          <p>
+            O Scrum Master promove a melhoria contínua na equipe, ajudando-os a identificar oportunidades para se tornarem
+            mais eficazes.
+            Eles garantem que a equipe se concentre em entregar valor ao cliente e que os princípios do Scrum sejam
+            seguidos.
+          </p>
+          <h2> Conclusão: </h2>
+          <p> Neste modulo, você aprendeu que o Scrum Master desempenha um papel essencial no framework Scrum. Eles são
+            líderes de equipe que facilitam o processo e removem obstáculos para que a equipe possa entregar valor de
+            forma eficaz. Agora, você compreende a importância desse papel no mundo ágil.Espero que tenha achado este
+            curso útil e que esteja pronto para aplicar esse conhecimento no trabalho com o Scrum. Obrigado por participar
+            do curso.
+          </p>
+        </div>
+        <div class="d-flex justify-content-around">
+          <a href="Avaliacao.html" class="btn-avalicao" alt="encaminha para a pagina do quiz scrum">Fazer teste</a>
+          <a href="Sobre.html" class="btn-avalicao" alt="encaminha a pagina de introdução ao scrum">Voltar ao Inicio</a>
         </div>
       </div>
-    </footer>
-    <script src="../logic/darkmode.js"></script>
-  </body>
+    </div>
+  </main>
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>WebWizardsPro</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        Designed by
+        <a href="https://github.com/cGuilhermec/DocumentacaoWebWizardPro" alt="link do github da equipe">WebWizardsPro</a>
+      </div>
+    </div>
+  </footer>
+  <script src="../logic/darkmode.js"></script>
+</body>
+
 </html>
