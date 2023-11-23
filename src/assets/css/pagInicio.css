@@ -13,21 +13,30 @@ body {
     text-decoration: none;
     text-transform: uppercase;
     width: 170px;
-    font-weight: 600;
-    font-size: 12px;
+    
     letter-spacing: 1px;
     display: inline-block;
     padding: 12px 40px;
-    border-radius: 10px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
     transition: 0.5s;
     margin-top: 320%;
     margin-right: 110px;
     margin-bottom: 25%;
-    color: #fff;
-    background: #651448;
-    box-shadow: 0px 0px 20px #67626d;
     cursor: pointer;
     position: relative;
+    background-color: #c40094;
+    border: 2px solid #fff;
+    outline: none;
+    border-radius: 6px;
+    box-shadow: 0 0 10px #c40094;
+    font-size: 12px;
+    color: #fff;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5s;
   }
   .inicioBtn a:hover {
     background: #561787;
@@ -48,25 +57,37 @@ body {
     background-size: cover;
   }
   .inicioBtn a {
+
     font-family: "Raleway", sans-serif;
     text-decoration: none;
     text-transform: uppercase;
     width: 170px;
-    font-weight: 600;
-    font-size: 12px;
+    
     letter-spacing: 1px;
     display: inline-block;
     padding: 12px 40px;
-    border-radius: 10px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
     transition: 0.5s;
+    cursor: pointer;
+    position: relative;
+    background-color: #c40094;
+    border: 2px solid #fff;
+    outline: none;
+    border-radius: 6px;
+    box-shadow: 0 0 10px #c40094;
+    font-size: 12px;
+    color: #fff;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5s;
+    
     margin-top: 300%;
     margin-right: 110px;
     margin-bottom: 25%;
-    color: #fff;
-    background: #651448;
-    box-shadow: 0px 0px 20px #67626d;
-    cursor: pointer;
-    position: relative;
+    
   }
   .inicioBtn a:hover {
     background: #561787;
@@ -89,21 +110,32 @@ body {
     text-decoration: none;
     text-transform: uppercase;
     width: 170px;
-    font-weight: 600;
-    font-size: 12px;
+    
     letter-spacing: 1px;
     display: inline-block;
     padding: 12px 40px;
-    border-radius: 10px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5s;
+    
+    cursor: pointer;
+    position: relative;
+    background-color: #c40094;
+    border: 2px solid #fff;
+    outline: none;
+    border-radius: 6px;
+    box-shadow: 0 0 10px #c40094;
+    font-size: 12px;
+    color: #fff;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
     transition: 0.5s;
     margin-top: 220%;
     margin-right: 110px;
     margin-bottom: 25%;
-    color: #fff;
-    background: #651448;
-    box-shadow: 0px 0px 20px #67626d;
-    cursor: pointer;
-    position: relative;
+    
   }
   .inicioBtn a:hover {
     background: #561787;
@@ -124,21 +156,31 @@ body {
     text-decoration: none;
     text-transform: uppercase;
     width: 170px;
-    font-weight: 600;
-    font-size: 12px;
+    
     letter-spacing: 1px;
     display: inline-block;
     padding: 12px 40px;
-    border-radius: 10px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5s;
+    cursor: pointer;
+    position: relative;
+    background-color: #c40094;
+    border: 2px solid #fff;
+    outline: none;
+    border-radius: 6px;
+    box-shadow: 0 0 10px #c40094;
+    font-size: 12px;
+    color: #fff;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
     transition: 0.5s;
     margin-top: 230%;
     margin-right: 100px;
     margin-bottom: 25%;
-    color: #fff;
-    background: #651448;
-    box-shadow: 0px 0px 20px #67626d;
-    cursor: pointer;
-    position: relative;
+    
   }
   .inicioBtn a:hover {
     background: #561787;
@@ -156,20 +198,32 @@ body {
     text-decoration: none;
     text-transform: uppercase;
     width: 170px;
-    font-weight: 600;
-    font-size: 12px;
+    
     letter-spacing: 1px;
     display: inline-block;
     padding: 12px 40px;
-    border-radius: 10px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5s;
+    
+    cursor: pointer;
+    position: relative;
+    background-color: #c40094;
+    border: 2px solid #fff;
+    outline: none;
+    border-radius: 6px;
+    box-shadow: 0 0 10px #c40094;
+    font-size: 12px;
+    color: #fff;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
     transition: 0.5s;
     margin-top: 230%;
     margin-right: 110px;
     margin-bottom: 25%;
-    color: #fff;
-    background: #651448;
-    box-shadow: 0px 0px 20px #67626d;
-    cursor: pointer;
+    
     position: relative;
   }
   .inicioBtn a:hover {
@@ -187,21 +241,32 @@ body {
     text-decoration: none;
     text-transform: uppercase;
     width: 170px;
-    font-weight: 600;
-    font-size: 12px;
+    
     letter-spacing: 1px;
     display: inline-block;
     padding: 12px 40px;
-    border-radius: 10px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5s;
+    cursor: pointer;
+    position: relative;
+    background-color: #c40094;
+    border: 2px solid #fff;
+    outline: none;
+    border-radius: 6px;
+    box-shadow: 0 0 10px #c40094;
+    font-size: 12px;
+    color: #fff;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
     transition: 0.5s;
     margin-top: 270%;
     margin-right: 110px;
     margin-bottom: 25%;
-    color: #fff;
-    background: #651448;
-    box-shadow: 0px 0px 20px #67626d;
-    cursor: pointer;
-    position: relative;
+    
+   
   }
   .inicioBtn a:hover {
     background: #561787;
