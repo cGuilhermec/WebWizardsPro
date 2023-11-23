@@ -20,6 +20,4 @@ imprimirBtn.onclick = () => {
   ${dataAtual.getDate()}/${
     dataAtual.getMonth() + 1
   }/${dataAtual.getFullYear()}.`;
-
-  window.print();
 };
